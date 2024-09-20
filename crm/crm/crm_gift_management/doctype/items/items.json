@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{ITEM}-{item_code}",
+ "creation": "2024-12-20 15:50:31.259415",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "item_name",
+  "item_type",
+  "item_size",
+  "item_price",
+  "item_quantity",
+  "column_break_ywpu",
+  "available",
+  "item_image",
+  "date_added"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "item_image",
+   "fieldtype": "Attach Image",
+   "label": "Item Image"
+  },
+  {
+   "fieldname": "item_type",
+   "fieldtype": "Select",
+   "label": "Item Type",
+   "options": "Food\nClothing\nMoney\nJewelry\nOthers"
+  },
+  {
+   "fieldname": "item_size",
+   "fieldtype": "Data",
+   "label": "Item Size"
+  },
+  {
+   "fieldname": "item_price",
+   "fieldtype": "Data",
+   "label": "Item Price"
+  },
+  {
+   "default": "1",
+   "fieldname": "item_quantity",
+   "fieldtype": "Data",
+   "label": "Item Quantity"
+  },
+  {
+   "fieldname": "column_break_ywpu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "available",
+   "fieldtype": "Check",
+   "label": "Available"
+  },
+  {
+   "fieldname": "date_added",
+   "fieldtype": "Date",
+   "label": "Date Added"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Item Code"
+  }
+ ],
+ "image_field": "item_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-20 16:47:31.058364",
+ "modified_by": "Administrator",
+ "module": "CRM GIFT MANAGEMENT",
+ "name": "Items",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,234 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-20 15:03:35.782602",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_details_tab",
+  "customer_details_section",
+  "customer_name",
+  "first_name",
+  "last_name",
+  "gender",
+  "birthday",
+  "age",
+  "company",
+  "title",
+  "column_break_ocuq",
+  "profile",
+  "is_vip",
+  "relationship",
+  "comments",
+  "tab_2_tab",
+  "mobile_number",
+  "landline_number",
+  "email",
+  "personal_details_tab",
+  "size",
+  "preferences",
+  "others",
+  "address_tab",
+  "province",
+  "city",
+  "street",
+  "zip_code",
+  "secretary_details_tab",
+  "secretary_name",
+  "secretary_mobile_number",
+  "secretary_landline_number",
+  "secretary_email"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Code"
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "birthday",
+   "fieldtype": "Data",
+   "label": "Birthday"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "column_break_ocuq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profile",
+   "fieldtype": "Attach Image",
+   "label": "Profile"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_vip",
+   "fieldtype": "Check",
+   "label": "Is VIP?"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Select",
+   "label": "Relationship",
+   "options": "Client\nPartner\nPersonal"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "customer_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "landline_number",
+   "fieldtype": "Int",
+   "label": "Landline Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "personal_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size"
+  },
+  {
+   "fieldname": "preferences",
+   "fieldtype": "Data",
+   "label": "Preferences"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Data",
+   "label": "Others"
+  },
+  {
+   "fieldname": "address_tab",
+   "fieldtype": "Tab Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Data",
+   "label": "Province"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "fieldname": "zip_code",
+   "fieldtype": "Data",
+   "label": "Zip Code"
+  },
+  {
+   "fieldname": "secretary_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Secretary Details"
+  },
+  {
+   "fieldname": "secretary_name",
+   "fieldtype": "Data",
+   "label": "Secretary Name"
+  },
+  {
+   "fieldname": "secretary_mobile_number",
+   "fieldtype": "Data",
+   "label": "Secretary Mobile Number"
+  },
+  {
+   "fieldname": "secretary_landline_number",
+   "fieldtype": "Data",
+   "label": "Secretary Landline Number"
+  },
+  {
+   "fieldname": "secretary_email",
+   "fieldtype": "Data",
+   "label": "Secretary Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-20 15:45:26.936764",
+ "modified_by": "Administrator",
+ "module": "CRM GIFT MANAGEMENT",
+ "name": "Customers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
